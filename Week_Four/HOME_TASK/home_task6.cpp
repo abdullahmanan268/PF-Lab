@@ -23,7 +23,7 @@ int main(){
          cout<<"Extremely fast"<<endl;
          }
       }
-      }
+    } 
      }
          return 0;
          }
