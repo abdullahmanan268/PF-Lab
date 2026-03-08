@@ -7,18 +7,24 @@ int main(){
   if(speed<=10){
     cout<<"Slow"<<endl;
     }
-     else if(speed<=50){
+     else {
+    if(speed<=50){
      cout<<"Average"<<endl;
      }
-      else if(speed<=150){
+      else {
+      if(speed<=150){
       cout<<"Fast"<<endl;
       }
-      else if(speed<=1000){
+      else{
+        if(speed<=1000){
         cout<<"Ultra fast"<<endl;
         }
          else {
          cout<<"Extremely fast"<<endl;
          }
+      }
+      }
+     }
          return 0;
          }
     
